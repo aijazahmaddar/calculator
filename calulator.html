@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<script src="calci.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="main"></div>
+	<div class="wholebody">
+	<form name="myform">
+			<tr>
+				<h1>CASIO</h1>
+				<br>
+				<br>
+				<br>
+				<br>
+				<td>
+					<input class="textname" type="text" name="textview"> 
+				</td>
+			</tr>
+			<br>
+			<br>
+			<br>
+			
+
+			<table>
+				<tr>
+					<td><input class="button" type="button" name="back" value="OFF"onclick="clr()"></td>
+					<td><input class="button" type="button" name="clear" value="C" onclick="clr()"></td>
+				    <td><input class="button" type="button" name="bss" value="AC" onclick="del()"></td>
+				    <td><input class="button "type="button" name="divd" value="%"onclick="display(divd.value)"></td>
+
+				</tr>
+			<tr>
+				<td><input class="button" type="button" name="one" value="1" onclick="display(one.value)"></td>
+                <td><input class="button" type="button" name="two" value="2" onclick="display(two.value)"></td>
+			    <td><input class="button" type="button" name="three" value="3" onclick="display(three.value)"></td>
+			    <td><input class="button" class="btn1"type="button" name="plus" value="+"onclick="display(plus.value)"></td>
+
+			</tr>
+			<tr>
+				<td><input  class="button" type="button" name="four" Value="4"onclick="display(four.value)"></td>
+				<td><input class="button" type="button" name="five" value="5"onclick="display(five.value)"></td>
+				<td><input class="button" type="button" name="six" value="6"onclick="display(six.value)"></td>
+				<td><input class="button" type="button" name="mnus" value="-"onclick="display(mnus.value)"></td>
+
+			</tr>
+			<tr>
+				<td><input class="button" type="button" name="seven" value="7"onclick="display(seven.value)"></td>
+				<td><input class="button" type="button" name="eight" value="8"onclick="display(eight.value)"></td>
+				<td><input class="button" type="button" name="nine" value="9"onclick="display(nine.value)"></td>
+				<td><input class="button" type="button" name="div" value="/"onclick="display(div.value)"></td>
+
+			</tr>
+			<tr>
+				<td colspan=2><input class="equality"type="button" class="btn2" name="equal" value="="onclick="myform.textview.value=eval(myform.textview.value)"></td>
+				<td><input class="button" type="button" name="deci" value="."onclick="display(deci.value)"></td>
+				<td><input class="button" type="button" name="multi" value="*"onclick="display(multi.value)"></td>
+
+			</tr>
+		
+		</table>
+</form>	
+</div>
+</body>
+</html>

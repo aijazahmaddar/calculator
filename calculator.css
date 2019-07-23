@@ -1,0 +1,57 @@
+
+.button{
+	width: 90px;
+	height: 90px;
+	font-size: 35px;
+	background-color: white;
+	border: auto;
+	border-radius: 8px;
+	cursor: pointer;
+	
+	}
+
+		
+
+.textname{
+	width: 370px;
+	height: 65px;
+	font-size: 30px;
+	border: auto;
+	border-radius: 20px;
+
+	}
+	
+
+.wholebody{
+	position: absolute;
+	top: 150px;
+	left: 600px;
+background-color: black;
+border: auto;
+border-radius: 12px;
+padding: 25px;
+box-shadow: 10px 10px 5px grey;
+
+
+
+}
+h1{
+	text-align: right;
+	color: white;
+	position:absolute;
+}
+.equality{
+	width: 185px;
+	height: 90px;
+	font-size: 35px;
+	background-color: white;
+	border: auto;
+	border-radius: 8px;
+	cursor: pointer;
+	
+}
+.main{
+	background-color: #eb4034;
+	height:1000px;
+
+}
